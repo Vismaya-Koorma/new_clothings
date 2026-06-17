@@ -471,8 +471,9 @@ h1, h2, h3, .logo-text, .logo, .navbar-brand {
 /* Footer */
 .footer-box {
   padding: 100px 40px 40px;
-  background: #fff;
-  border-top: 1px solid #f0f0f0;
+  background: #000;
+  border-top: 1px solid #1a1a1a;
+  color: #fff;
 }
 
 .foot-main {
@@ -491,10 +492,11 @@ h1, h2, h3, .logo-text, .logo, .navbar-brand {
 .foot-col .logo {
   font-size: 1.8rem;
   margin-bottom: 25px;
+  color: #fff;
 }
 
 .foot-col p {
-  color: #777;
+  color: #ccc;
   font-size: 0.95rem;
 }
 
@@ -503,6 +505,7 @@ h1, h2, h3, .logo-text, .logo, .navbar-brand {
   font-size: 0.85rem;
   letter-spacing: 2px;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 .foot-col ul {
@@ -514,29 +517,35 @@ h1, h2, h3, .logo-text, .logo, .navbar-brand {
 }
 
 .foot-col ul li a {
-  color: #777;
+  color: #ccc;
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.3s;
 }
 
 .foot-col ul li a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .mail-box {
   display: flex;
   margin-top: 25px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #333;
   padding-bottom: 10px;
 }
 
 .mail-box input {
   flex: 1;
+  background: transparent;
   border: none;
   outline: none;
   padding: 10px 0;
   font-family: inherit;
+  color: #fff;
+}
+
+.mail-box input::placeholder {
+  color: #666;
 }
 
 .mail-box button {
@@ -545,6 +554,7 @@ h1, h2, h3, .logo-text, .logo, .navbar-brand {
   font-weight: 600;
   cursor: pointer;
   letter-spacing: 1px;
+  color: #fff;
 }
 
 .foot-bottom {
@@ -553,7 +563,7 @@ h1, h2, h3, .logo-text, .logo, .navbar-brand {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #f0f0f0;
+  border-top: 1px solid #1a1a1a;
   padding-top: 40px;
   color: #888;
   font-size: 0.85rem;
